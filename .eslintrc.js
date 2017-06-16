@@ -20,6 +20,10 @@ module.exports = {
     "semi": [
       "error",
       "never"
-    ]
+    ],
+    "no-console": 0
+  },
+  "globals": {
+    "atom": true
   }
 };
