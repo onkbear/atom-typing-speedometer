@@ -3,8 +3,10 @@
   "main": "./lib/atom-typing-speedometer",
   "version": "0.0.0",
   "description": "A short description of your package",
-  "keywords": [
-  ],
+  "keywords": [],
+  "scripts": {
+    "lint": "eslint --ext .js lib"
+  },
   "activationCommands": {
     "atom-workspace": "atom-typing-speedometer:toggle"
   },
@@ -13,6 +15,8 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^4.0.0"
   }
 }
