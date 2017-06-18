@@ -5,7 +5,7 @@
   "description": "A short description of your package",
   "keywords": [],
   "scripts": {
-    "lint": "eslint --ext .js lib"
+    "lint": "eslint --ext .js lib spec"
   },
   "activationCommands": {
     "atom-workspace": "atom-typing-speedometer:toggle"

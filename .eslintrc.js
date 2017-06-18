@@ -1,12 +1,12 @@
 module.exports = {
   "env": {
-      "browser": true,
-      "commonjs": true,
-      "es6": true
+    "browser": true,
+    "commonjs": true,
+    "es6": true
   },
   "extends": "eslint:recommended",
   "parserOptions": {
-      "sourceType": "module"
+    "sourceType": "module"
   },
   "rules": {
     "indent": [
@@ -24,6 +24,17 @@ module.exports = {
     "no-console": 0
   },
   "globals": {
-    "atom": true
+    "atom": true,
+    "beforeEach": true,
+    "afterEach": true,
+    "expect": true,
+    "describe": true,
+    "it": true,
+    "jasmine": true,
+    "runs": true,
+    "spyOn": true,
+    "waits": true,
+    "waitsFor": true,
+    "waitsForPromise": true
   }
 };
