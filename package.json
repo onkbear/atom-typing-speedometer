@@ -2,7 +2,7 @@
   "name": "atom-typing-speedometer",
   "main": "./lib/atom-typing-speedometer",
   "version": "0.0.0",
-  "description": "A short description of your package",
+  "description": "Display the speed of typing",
   "keywords": [],
   "scripts": {
     "lint": "eslint --ext .js lib spec"
