@@ -1,7 +1,6 @@
 'use babel'
 
 describe('AtomTypingSpeedometer', () => {
-
   let workspaceElement
   let activationPromise
 
@@ -15,7 +14,7 @@ describe('AtomTypingSpeedometer', () => {
   })
 
   describe('when the atom-typing-speedometer:toggle event is triggered', () => {
-    it ('hides and shows the view', () => {
+    it('hides and shows the view', () => {
       // This test shows you an integration test testing at the view level.
 
       expect(workspaceElement.querySelector('.atom-typing-speedometer')).not.toExist()
