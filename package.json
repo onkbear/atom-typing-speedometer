@@ -3,7 +3,10 @@
   "main": "./lib/atom-typing-speedometer",
   "version": "0.2.0",
   "description": "Display the speed of typing",
-  "keywords": [],
+  "keywords": [
+    "statusbar",
+    "typing"
+  ],
   "scripts": {
     "lint": "eslint --ext .js lib spec"
   },
