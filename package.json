@@ -7,9 +7,6 @@
   "scripts": {
     "lint": "eslint --ext .js lib spec"
   },
-  "activationCommands": {
-    "atom-workspace": "atom-typing-speedometer:toggle"
-  },
   "repository": "https://github.com/onkbear/atom-typing-speedometer",
   "license": "MIT",
   "engines": {
