@@ -2,7 +2,6 @@
 
 describe('AtomTypingSpeedometer', () => {
   let workspaceElement
-  let activationPromise
   let originalConfig
 
   beforeEach(() => {
